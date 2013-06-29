@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" />
     </head>
 
-    <body>
+    <body <?php body_class(); ?>>
 
         <div class="interface headerbg">
             <header>
@@ -18,7 +18,7 @@
 
             </header>
 
-        </div>
+        </div> <!-- Header Background -->
 
         <div class="interface site_nav_bg">
 

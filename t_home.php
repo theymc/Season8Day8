@@ -1,9 +1,11 @@
-<?php get_header(); ?>
+<?php /* Template Name: Custom Home Template */ ?>
 
+<?php get_header(); ?>
         
     <div id="main">
 
         <section id="articles">
+            <h1>This is the home template</h1>
             <?php
                 while(have_posts()):
                     the_post();
@@ -19,10 +21,8 @@
 
                 <?php the_content(); ?>
         
+
                 <hr />
-
-                <?php comments_template(); ?>
-
             </article>
 
             <?php
@@ -30,8 +30,6 @@
             ?>
 
         </section> <!-- articles -->
-
-        <?php get_sidebar(); ?>
 
     </div>
 

@@ -12,6 +12,16 @@ body {
     font-family: Arial;
 }
 
+/* optional contextual body background colors 
+.home {
+    background: yellow;
+}
+
+.archive {
+    background: orange;
+}
+*/
+
 .interface {
     width: 100%;
 }
@@ -56,13 +66,23 @@ nav.site {
     background: white;
 }
 
+.site_nav_bg ul li.current-menu-item a{
+    background: #F57B20;
+    color: white;
+}
+
 #main {
+    /* Step 1 */
     width: 960px;
+
+    /* Step 2 */
     margin: auto;
 }
 
 #articles {
+    /* Step 3 */
     width: 75%;
+    /* Step 4 */
     float: left;
 }
 
@@ -71,7 +91,9 @@ article {
 }
 
 #sidebar {
+    /* Step 3 */
     width: 25%;
+    /* Step 4 */
     float: right;
 }
 
